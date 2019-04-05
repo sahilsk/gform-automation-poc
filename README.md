@@ -70,6 +70,12 @@ Check enabled apis list
 
     clasp apis --open
 
+You may want to enable following two apis as well:
+
+- script - Manages and executes Google Apps Script projects.
+- serviceusage - Enables services that service consumers want to use on Google Cloud Platform, lists the available or enabled services, or disables services that service consumers no longer use.
+- stackdriver - Provides users with programmatic access to Stackdriver endpoints that allow putting VM instances and other resources into maintenance mode.
+
 ### Obtain creds
 
     clasp open --creds
